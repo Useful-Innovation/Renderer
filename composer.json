@@ -1,0 +1,19 @@
+{
+  "name" : "gobrave/renderer",
+  "description" : "A rendering class that supports many include paths",
+  "authors" : [
+    {
+      "name" : "Emil Rosendahl",
+      "email" : "emil@gobrave.se"
+    }
+  ],
+  "require" : {},
+  "require-dev" : {
+    "phpunit/phpunit" : "~4.0"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "GoBrave\\Renderer\\" : "./src"
+    }
+  }
+}
